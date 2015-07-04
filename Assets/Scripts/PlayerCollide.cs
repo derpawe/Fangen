@@ -18,6 +18,13 @@ public class PlayerCollide : MonoBehaviour {
 		blue = new Color(0,0,255,1);
 
 		gameObjectRenderer = this.gameObject.GetComponent<MeshRenderer>();
+
+		Material newMaterial = new Material(Shader.Find("Diffuse"));
+		if (_hunter)
+			newMaterial.color = red;
+		else
+			newMaterial.color = blue;
+		gameObjectRenderer.material = newMaterial ;
 	}
 	
 	// Update is called once per frame
