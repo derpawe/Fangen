@@ -21,16 +21,25 @@ public class CameraFollow : MonoBehaviour
         float currentHeight = transform.position.y;
 
         // lerp current height to wanted height
-        currentHeight = Mathf.Lerp(currentHeight, wantedHeight, heightDamping*Time.deltaTime);
+        currentHeight = Mathf.Lerp(currentHeight, wantedHeight, heightDamping * Time.deltaTime);
 
         // Set position to wanted position
         transform.position = target.position;
-        transform.position -= Vector3.forward*distance;
+        transform.position -= Vector3.forward * distance;
 
         // Set the height of the camera
         transform.position = new Vector3(transform.position.x, currentHeight, transform.position.z);
 
-        // Always look at the target
+        // Always look at the newTarget
         transform.LookAt(target);
+    }
+
+    public void SetCameraToTarget(Transform newTarget)
+    {
+        if (newTarget.gameObject.GetComponent<UnityEngine.Networking.NetworkIdentity>().isLocalPlayer)
+        {
+            target = newTarget;
+       
+        }
     }
 }
