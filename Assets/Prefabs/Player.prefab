@@ -9,7 +9,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 442086}
   - 33: {fileID: 3322526}
-  - 135: {fileID: 13584386}
   - 23: {fileID: 2399382}
   - 135: {fileID: 13587058}
   - 54: {fileID: 5453936}
@@ -18,9 +17,11 @@ GameObject:
   - 114: {fileID: 11483588}
   - 114: {fileID: 11494662}
   - 114: {fileID: 11454268}
+  - 114: {fileID: 11480288}
+  - 114: {fileID: 11483646}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,6 +110,17 @@ MonoBehaviour:
   height: 7
   heightDamping: 2
   target: {fileID: 0}
+--- !u!114 &11480288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c17efbc123e19d41bbef03048194e33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11483588
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -141,6 +153,17 @@ MonoBehaviour:
     i15: 85
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 1
+--- !u!114 &11483646
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5a6e30ec0bfb77498ad92a522934afd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11494662
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -161,18 +184,6 @@ MonoBehaviour:
   m_SnapThreshold: 5
   m_InterpolateRotation: 1
   m_InterpolateMovement: 1
---- !u!135 &13584386
-SphereCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 159806}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: .5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!135 &13587058
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -231,6 +242,22 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Color.b
       value: .0364943519
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Text
+      value: asdfasf
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Anchor
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
