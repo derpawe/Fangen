@@ -17,11 +17,11 @@ public class ClickToMove : MonoBehaviour
 
     private void Update()
     {
-		if (this.gameObject.GetComponent<UnityEngine.Networking.NetworkIdentity> ().isLocalPlayer) {
+		// if (this.gameObject.GetComponent<UnityEngine.Networking.NetworkIdentity> ().isLocalPlayer) {
 			if (Input.GetMouseButton (0)) {
 				MoveToPosition ();
 			}
-		}
+		// }
     }
 
     private void MoveToPosition()
