@@ -36,6 +36,10 @@ public class CameraFollow : MonoBehaviour
 
     public void SetCameraToTarget(Transform newTarget)
     {
-        target = newTarget;
+        if (newTarget.gameObject.GetComponent<UnityEngine.Networking.NetworkIdentity>().isLocalPlayer)
+        {
+            target = newTarget;
+       
+        }
     }
 }
