@@ -15,6 +15,7 @@ public class PlayerCollide : MonoBehaviour {
 	void Start () {
 		_timer = 2;
 		_timeout = false;
+		nIdent = GetComponent<NetworkIdentity> ();
 		_hunter = nIdent.isServer == nIdent.localPlayerAuthority;
 		
 		red = new Color(255,0,0,1);
@@ -35,6 +36,7 @@ public class PlayerCollide : MonoBehaviour {
 		if (_timeout) {
 			_timer -= Time.deltaTime;
 			if (_timer <= 0)
+				_timer = 2;
 				_timeout = false;
 		}
 
