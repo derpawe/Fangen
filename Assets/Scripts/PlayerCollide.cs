@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Networking;
 using System.Collections;
 
 public class PlayerCollide : MonoBehaviour {
@@ -8,12 +9,14 @@ public class PlayerCollide : MonoBehaviour {
 	bool _hunter;
 	Color red;
 	Color blue;
+	NetworkIdentity nIdent;
 	MeshRenderer gameObjectRenderer;
 	// Use this for initialization
 	void Start () {
 		_timer = 2;
 		_timeout = false;
-		_hunter = Network.isServer;
+		_hunter = nIdent.isServer == nIdent.localPlayerAuthority;
+		
 		red = new Color(255,0,0,1);
 		blue = new Color(0,0,255,1);
 
