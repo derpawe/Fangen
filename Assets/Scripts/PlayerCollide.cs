@@ -69,3 +69,4 @@ public class PlayerCollide : MonoBehaviour {
 		}
 	}
 }
+
