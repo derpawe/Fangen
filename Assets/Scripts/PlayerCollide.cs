@@ -16,7 +16,7 @@ public class PlayerCollide : MonoBehaviour {
 		_timer = 2;
 		_timeout = false;
 		nIdent = GetComponent<NetworkIdentity> ();
-		_hunter = nIdent.isServer == nIdent.localPlayerAuthority;
+		_hunter = (nIdent.netId.Value == 2);
 		
 		red = new Color(255,0,0,1);
 		blue = new Color(0,0,255,1);
