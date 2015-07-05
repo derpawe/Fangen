@@ -23,8 +23,8 @@ public class PlayerCollide : NetworkBehaviour {
 		_timer = 2;
 		_timeout = false;
 		nIdent = GetComponent<NetworkIdentity> ();
-		_hunter = (nIdent.netId.Value == 2);
-		isFirstplayer = !_hunter;
+		_hunter = (nIdent.netId.Value <= 2);
+		isFirstplayer = _hunter;
 		red = new Color(255,0,0,1);
 		blue = new Color(0,0,255,1);
 		
