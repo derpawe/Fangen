@@ -1,0 +1,343 @@
+fileFormatVersion: 2
+guid: 8c7b6d58a90b80a42a499105f23fdadd
+timeCreated: 1436090170
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: arm
+    100002: arm_1
+    100004: Bein_Links
+    100006: Bein_rechts
+    100008: CINEMA_4D_Editor
+    100010: Hose
+    100012: Kapsel
+    100014: Kapsel_1
+    100016: Kapsel_1_2
+    100018: Kapsel_1_3
+    100020: Kapsel_1_4
+    100022: Kapsel_2
+    100024: Kapsel_3
+    100026: Kapsel_4
+    100028: Klon
+    100030: Kopf
+    100032: Kopf_0
+    100034: Kopf_1
+    100036: Kopf_10
+    100038: Kopf_11
+    100040: Kopf_12
+    100042: Kopf_13
+    100044: Kopf_14
+    100046: Kopf_2
+    100048: Kopf_2_2
+    100050: Kopf_3
+    100052: Kopf_3_2
+    100054: Kopf_4
+    100056: Kopf_5
+    100058: Kopf_6
+    100060: Kopf_7
+    100062: Kopf_8
+    100064: Kopf_9
+    100066: Kugel_1
+    100068: "K\xF6rper"
+    100070: Madel
+    100072: //RootNode
+    100074: Zufall
+    400000: arm
+    400002: arm_1
+    400004: Bein_Links
+    400006: Bein_rechts
+    400008: CINEMA_4D_Editor
+    400010: Hose
+    400012: Kapsel
+    400014: Kapsel_1
+    400016: Kapsel_1_2
+    400018: Kapsel_1_3
+    400020: Kapsel_1_4
+    400022: Kapsel_2
+    400024: Kapsel_3
+    400026: Kapsel_4
+    400028: Klon
+    400030: Kopf
+    400032: Kopf_0
+    400034: Kopf_1
+    400036: Kopf_10
+    400038: Kopf_11
+    400040: Kopf_12
+    400042: Kopf_13
+    400044: Kopf_14
+    400046: Kopf_2
+    400048: Kopf_2_2
+    400050: Kopf_3
+    400052: Kopf_3_2
+    400054: Kopf_4
+    400056: Kopf_5
+    400058: Kopf_6
+    400060: Kopf_7
+    400062: Kopf_8
+    400064: Kopf_9
+    400066: Kugel_1
+    400068: "K\xF6rper"
+    400070: Madel
+    400072: //RootNode
+    400074: Zufall
+    2300000: arm
+    2300002: arm_1
+    2300004: Bein_Links
+    2300006: Bein_rechts
+    2300008: Hose
+    2300010: Kapsel
+    2300012: Kapsel_1
+    2300014: Kapsel_1_2
+    2300016: Kapsel_1_3
+    2300018: Kapsel_1_4
+    2300020: Kapsel_2
+    2300022: Kapsel_3
+    2300024: Kapsel_4
+    2300026: Kopf_0
+    2300028: Kopf_1
+    2300030: Kopf_10
+    2300032: Kopf_11
+    2300034: Kopf_12
+    2300036: Kopf_13
+    2300038: Kopf_14
+    2300040: Kopf_2
+    2300042: Kopf_2_2
+    2300044: Kopf_3
+    2300046: Kopf_3_2
+    2300048: Kopf_4
+    2300050: Kopf_5
+    2300052: Kopf_6
+    2300054: Kopf_7
+    2300056: Kopf_8
+    2300058: Kopf_9
+    2300060: Kugel_1
+    3300000: arm
+    3300002: arm_1
+    3300004: Bein_Links
+    3300006: Bein_rechts
+    3300008: Hose
+    3300010: Kapsel
+    3300012: Kapsel_1
+    3300014: Kapsel_1_2
+    3300016: Kapsel_1_3
+    3300018: Kapsel_1_4
+    3300020: Kapsel_2
+    3300022: Kapsel_3
+    3300024: Kapsel_4
+    3300026: Kopf_0
+    3300028: Kopf_1
+    3300030: Kopf_10
+    3300032: Kopf_11
+    3300034: Kopf_12
+    3300036: Kopf_13
+    3300038: Kopf_14
+    3300040: Kopf_2
+    3300042: Kopf_2_2
+    3300044: Kopf_3
+    3300046: Kopf_3_2
+    3300048: Kopf_4
+    3300050: Kopf_5
+    3300052: Kopf_6
+    3300054: Kopf_7
+    3300056: Kopf_8
+    3300058: Kopf_9
+    3300060: Kugel_1
+    4300000: Kopf_2
+    4300002: Kopf_3
+    4300004: Kopf_0
+    4300006: Kopf_1
+    4300008: Kopf_2_2
+    4300010: Kopf_3_2
+    4300012: Kopf_4
+    4300014: Kopf_5
+    4300016: Kopf_6
+    4300018: Kopf_7
+    4300020: Kopf_8
+    4300022: Kopf_9
+    4300024: Kopf_10
+    4300026: Kopf_11
+    4300028: Kopf_12
+    4300030: Kopf_13
+    4300032: Kopf_14
+    4300034: Bein_Links
+    4300036: Kapsel
+    4300038: Kapsel_1
+    4300040: Bein_rechts
+    4300042: Kapsel_2
+    4300044: Kapsel_1_2
+    4300046: Hose
+    4300048: arm_1
+    4300050: Kapsel_3
+    4300052: Kapsel_1_3
+    4300054: arm
+    4300056: Kapsel_4
+    4300058: Kapsel_1_4
+    4300060: Kugel_1
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CINEMA_4D_Editor
+        weight: 1
+      - path: Madel
+        weight: 1
+      - path: Madel/Bein_Links
+        weight: 1
+      - path: Madel/Bein_Links/Kapsel
+        weight: 1
+      - path: Madel/Bein_Links/Kapsel/Kapsel_1
+        weight: 1
+      - path: Madel/Bein_rechts
+        weight: 1
+      - path: Madel/Bein_rechts/Kapsel_2
+        weight: 1
+      - path: Madel/Bein_rechts/Kapsel_2/Kapsel_1_2
+        weight: 1
+      - path: Madel/Hose
+        weight: 1
+      - path: Madel/Kopf
+        weight: 1
+      - path: Madel/Kopf/Klon
+        weight: 1
+      - path: Madel/Kopf/Klon/Kopf_0
+        weight: 1
+      - path: Madel/Kopf/Klon/Kopf_1
+        weight: 1
+      - path: Madel/Kopf/Klon/Kopf_2_2
+        weight: 1
+      - path: Madel/Kopf/Klon/Kopf_3_2
+        weight: 1
+      - path: Madel/Kopf/Klon/Kopf_4
+        weight: 1
+      - path: Madel/Kopf/Klon/Kopf_5
+        weight: 1
+      - path: Madel/Kopf/Klon/Kopf_6
+        weight: 1
+      - path: Madel/Kopf/Klon/Kopf_7
+        weight: 1
+      - path: Madel/Kopf/Klon/Kopf_8
+        weight: 1
+      - path: Madel/Kopf/Klon/Kopf_9
+        weight: 1
+      - path: Madel/Kopf/Klon/Kopf_10
+        weight: 1
+      - path: Madel/Kopf/Klon/Kopf_11
+        weight: 1
+      - path: Madel/Kopf/Klon/Kopf_12
+        weight: 1
+      - path: Madel/Kopf/Klon/Kopf_13
+        weight: 1
+      - path: Madel/Kopf/Klon/Kopf_14
+        weight: 1
+      - path: Madel/Kopf/Kopf_2
+        weight: 1
+      - path: Madel/Kopf/Kopf_3
+        weight: 1
+      - path: "Madel/K\xF6rper"
+        weight: 1
+      - path: "Madel/K\xF6rper/arm"
+        weight: 1
+      - path: "Madel/K\xF6rper/arm/Kapsel_4"
+        weight: 1
+      - path: "Madel/K\xF6rper/arm/Kapsel_4/Kapsel_1_4"
+        weight: 1
+      - path: "Madel/K\xF6rper/arm_1"
+        weight: 1
+      - path: "Madel/K\xF6rper/arm_1/Kapsel_3"
+        weight: 1
+      - path: "Madel/K\xF6rper/arm_1/Kapsel_3/Kapsel_1_3"
+        weight: 1
+      - path: "Madel/K\xF6rper/Kugel_1"
+        weight: 1
+      - path: Zufall
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

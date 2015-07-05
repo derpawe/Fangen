@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 316b21df73c7b164a830e2becca3396b
+timeCreated: 1436085651
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Arme
+    100002: Bein_Links
+    100004: Bein_rechts
+    100006: Cappy
+    100008: CINEMA_4D_Editor
+    100010: Hose
+    100012: Junge
+    100014: //RootNode
+    100016: Kapsel
+    100018: Kapsel_1
+    100020: Kapsel_1_2
+    100022: Kapsel_1_3
+    100024: Kapsel_2
+    100026: Kapsel_3
+    100028: Kapsel_4
+    100030: Kopf
+    100032: Kugel
+    100034: Kugel_1
+    100036: Kugel_1_2
+    100038: "K\xF6rper"
+    400000: Arme
+    400002: Bein_Links
+    400004: Bein_rechts
+    400006: Cappy
+    400008: CINEMA_4D_Editor
+    400010: Hose
+    400012: Junge
+    400014: //RootNode
+    400016: Kapsel
+    400018: Kapsel_1
+    400020: Kapsel_1_2
+    400022: Kapsel_1_3
+    400024: Kapsel_2
+    400026: Kapsel_3
+    400028: Kapsel_4
+    400030: Kopf
+    400032: Kugel
+    400034: Kugel_1
+    400036: Kugel_1_2
+    400038: "K\xF6rper"
+    2300000: Bein_Links
+    2300002: Bein_rechts
+    2300004: Hose
+    2300006: Kapsel
+    2300008: Kapsel_1
+    2300010: Kapsel_1_2
+    2300012: Kapsel_1_3
+    2300014: Kapsel_2
+    2300016: Kapsel_3
+    2300018: Kapsel_4
+    2300020: Kopf
+    2300022: Kugel
+    2300024: Kugel_1
+    2300026: Kugel_1_2
+    3300000: Bein_Links
+    3300002: Bein_rechts
+    3300004: Hose
+    3300006: Kapsel
+    3300008: Kapsel_1
+    3300010: Kapsel_1_2
+    3300012: Kapsel_1_3
+    3300014: Kapsel_2
+    3300016: Kapsel_3
+    3300018: Kapsel_4
+    3300020: Kopf
+    3300022: Kugel
+    3300024: Kugel_1
+    3300026: Kugel_1_2
+    4300000: Bein_rechts
+    4300002: Kapsel
+    4300004: Kapsel_1
+    4300006: Bein_Links
+    4300008: Kapsel_2
+    4300010: Kapsel_1_2
+    4300012: Hose
+    4300014: Kapsel_3
+    4300016: Kapsel_4
+    4300018: Kapsel_1_3
+    4300020: Kugel_1
+    4300022: Kopf
+    4300024: Kugel
+    4300026: Kugel_1_2
+    6400000: Bein_Links
+    6400002: Bein_rechts
+    6400004: Hose
+    6400006: Kapsel
+    6400008: Kapsel_1
+    6400010: Kapsel_1_2
+    6400012: Kapsel_1_3
+    6400014: Kapsel_2
+    6400016: Kapsel_3
+    6400018: Kapsel_4
+    6400020: Kopf
+    6400022: Kugel
+    6400024: Kugel_1
+    6400026: Kugel_1_2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
