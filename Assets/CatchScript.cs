@@ -8,7 +8,9 @@ public class CatchScript : MonoBehaviour {
 	bool _timeout;
 	public bool isHunter;
 	int points = 0;
-	public string huntingString = "";
+	public string huntingString1 = "";
+	public string huntingString2 = "";
+	float distance = 0;
 
 
 	// Use this for initialization
@@ -17,6 +19,9 @@ public class CatchScript : MonoBehaviour {
 	}
 	
 	void Update () {
+		distance = Vector3.Distance(GameObject.Find("Bub").transform.position, GameObject.Find("Madel").transform.position);
+		//print("Distance to other: " + distance);
+		
 		if (_timeout) {
 			_timer -= Time.deltaTime;
 			if (_timer <= 0){
@@ -31,10 +36,16 @@ public class CatchScript : MonoBehaviour {
 
 
 	void OnGUI(){
-		if (isHunter)
-			GUI.TextArea (new Rect (30, 10,100, 25), huntingString + points);
-		else
-			GUI.TextArea (new Rect (700, 10, 100, 25), huntingString + points);
+
+
+
+		if (isHunter) {
+			GUI.TextArea (new Rect (30, 10, 100, 25), huntingString1 + points);
+			GUI.TextArea (new Rect (30, 30, 100, 25), distance.ToString());
+		} else {
+			GUI.TextArea (new Rect (800, 10, 100, 25), huntingString2 + points);
+			GUI.TextArea (new Rect (800, 30, 100, 25), distance.ToString());
+		}
 	}
 
 	
@@ -45,10 +56,13 @@ public class CatchScript : MonoBehaviour {
 			if(isHunter) {
 				//points = points + 10000;
 				isHunter = false;
-				huntingString = "Run!!! ";
+				huntingString1 = "Run!!! ";
+				huntingString2 = "Catch!!! ";
 				//_timeout = true;
 			} else {
 				isHunter = true;
+				huntingString1 = "Catch!!! ";
+				huntingString2 = "Run!!! ";
 				//_timeout = true;
 			//	print("DAMN " + collider.name);
 				//points = points - 10000;
@@ -61,12 +75,15 @@ public class CatchScript : MonoBehaviour {
 			if(isHunter) {
 				//points = points + 10000;
 				isHunter = false;
-				huntingString = "Catch!!! ";
+				huntingString2 = "Run!!! ";
+				huntingString1 = "Catch!!! ";
 				//_timeout = true;
 			} else {
 				isHunter = true;
+				huntingString2 = "Catch!!! ";
+				huntingString1 = "Run!!! ";
 				//_timeout = true;
-			//	print("DAMN " + collider.name);
+				//	print("DAMN " + collider.name);
 				//points = points - 10000;
 			} 
 

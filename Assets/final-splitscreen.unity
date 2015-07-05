@@ -15714,7 +15714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 0
-  height: 3
+  height: 5
   heightDamping: 2
   target: {fileID: 1007332473}
 --- !u!81 &935572359
@@ -17267,7 +17267,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isHunter: 0
-  huntingString: '"Run!!!"'
+  huntingString1: 
+  huntingString2: 
 --- !u!1 &1008975696
 GameObject:
   m_ObjectHideFlags: 0
@@ -22614,7 +22615,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 0
-  height: 3
+  height: 5
   heightDamping: 2
   target: {fileID: 1432687230}
 --- !u!1 &1306582054
@@ -22924,7 +22925,7 @@ BoxCollider:
   m_GameObject: {fileID: 1317098752}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -24849,7 +24850,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isHunter: 1
-  huntingString: '"Catch!!!" '
+  huntingString1: 
+  huntingString2: 
 --- !u!4 &1442733569 stripped
 Transform:
   m_PrefabParentObject: {fileID: 408470, guid: 7211b5e2506f99547b9770b80d19e061, type: 2}
