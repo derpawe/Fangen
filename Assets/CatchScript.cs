@@ -38,17 +38,15 @@ public class CatchScript : MonoBehaviour {
 
 	void OnTriggerEnter(Collider collider){
 		if(collider.tag  == "Player"){
-			print("Collision");
+			print("Collision ");
 			if(isHunter) {
 				points = points + 10000;
 				isHunter = false;
 				//_timeout = true;
-			} else if (!isHunter ) {
+			} else {
 				isHunter = true;
 				//_timeout = true;
-				print("isHunted");
-
-
+				print("DAMN " + collider.name);
 			} 
 			
 		}
