@@ -327,6 +327,7 @@ GameObject:
   - 195: {fileID: 19586398}
   - 114: {fileID: 11492718}
   - 114: {fileID: 11415128}
+  - 114: {fileID: 11401344}
   m_Layer: 0
   m_Name: Bub
   m_TagString: Untagged
@@ -1252,6 +1253,21 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &11401344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 185516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6cfeaa0a31cab4d873c7c77fea8329, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: 7a4dcf80e70756e459ee5efd2ca67114, type: 3}
+  - {fileID: 8300000, guid: 13cff76cb7871614c9d59ba2f28c576c, type: 3}
+  - {fileID: 8300000, guid: a6604f7ee984d1442b320d4bd46e9e47, type: 3}
 --- !u!114 &11415128
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1300,7 +1316,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: audioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 185516}

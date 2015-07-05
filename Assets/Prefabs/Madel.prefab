@@ -301,6 +301,7 @@ GameObject:
   - 65: {fileID: 6539284}
   - 114: {fileID: 11433758}
   - 114: {fileID: 11430848}
+  - 114: {fileID: 11470904}
   m_Layer: 0
   m_Name: Madel
   m_TagString: Untagged
@@ -2156,6 +2157,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95a3a7be939bf224291352975d17dcb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11470904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 156384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d6cfeaa0a31cab4d873c7c77fea8329, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: f429ea259b19acd489be946b71f92291, type: 3}
+  - {fileID: 8300000, guid: 2a1d932780e33d647b8d27d815dc2973, type: 3}
+  - {fileID: 8300000, guid: eb13786a977eb2d46b79fcf135ae7cb4, type: 3}
 --- !u!195 &19509718
 NavMeshAgent:
   m_ObjectHideFlags: 1
@@ -2182,7 +2198,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: audioClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 156384}
