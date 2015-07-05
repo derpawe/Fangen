@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: fc428df7eb1fd054d8faa7f546428e00
+timeCreated: 1436093103
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: arm
+    100002: arm_1
+    100004: Bein_Links
+    100006: Bein_rechts
+    100008: Cappy
+    100010: CINEMA_4D_Editor
+    100012: Hose
+    100014: Junge
+    100016: //RootNode
+    100018: Kapsel
+    100020: Kapsel_1
+    100022: Kapsel_1_2
+    100024: Kapsel_1_3
+    100026: Kapsel_1_4
+    100028: Kapsel_2
+    100030: Kapsel_3
+    100032: Kapsel_4
+    100034: Kopf
+    100036: Kopf_2
+    100038: Kugel
+    100040: Kugel_1
+    100042: Kugel_1_2
+    100044: "K\xF6rper"
+    400000: arm
+    400002: arm_1
+    400004: Bein_Links
+    400006: Bein_rechts
+    400008: Cappy
+    400010: CINEMA_4D_Editor
+    400012: Hose
+    400014: Junge
+    400016: //RootNode
+    400018: Kapsel
+    400020: Kapsel_1
+    400022: Kapsel_1_2
+    400024: Kapsel_1_3
+    400026: Kapsel_1_4
+    400028: Kapsel_2
+    400030: Kapsel_3
+    400032: Kapsel_4
+    400034: Kopf
+    400036: Kopf_2
+    400038: Kugel
+    400040: Kugel_1
+    400042: Kugel_1_2
+    400044: "K\xF6rper"
+    2300000: arm
+    2300002: arm_1
+    2300004: Bein_Links
+    2300006: Bein_rechts
+    2300008: Hose
+    2300010: Kapsel
+    2300012: Kapsel_1
+    2300014: Kapsel_1_2
+    2300016: Kapsel_1_3
+    2300018: Kapsel_1_4
+    2300020: Kapsel_2
+    2300022: Kapsel_3
+    2300024: Kapsel_4
+    2300026: Kopf_2
+    2300028: Kugel
+    2300030: Kugel_1
+    2300032: Kugel_1_2
+    3300000: arm
+    3300002: arm_1
+    3300004: Bein_Links
+    3300006: Bein_rechts
+    3300008: Hose
+    3300010: Kapsel
+    3300012: Kapsel_1
+    3300014: Kapsel_1_2
+    3300016: Kapsel_1_3
+    3300018: Kapsel_1_4
+    3300020: Kapsel_2
+    3300022: Kapsel_3
+    3300024: Kapsel_4
+    3300026: Kopf_2
+    3300028: Kugel
+    3300030: Kugel_1
+    3300032: Kugel_1_2
+    4300000: Kugel
+    4300002: Kugel_1
+    4300004: Kopf_2
+    4300006: Bein_Links
+    4300008: Kapsel
+    4300010: Kapsel_1
+    4300012: Bein_rechts
+    4300014: Kapsel_2
+    4300016: Kapsel_1_2
+    4300018: Hose
+    4300020: arm_1
+    4300022: Kapsel_3
+    4300024: Kapsel_1_3
+    4300026: arm
+    4300028: Kapsel_4
+    4300030: Kapsel_1_4
+    4300032: Kugel_1_2
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CINEMA_4D_Editor
+        weight: 1
+      - path: Junge
+        weight: 1
+      - path: Junge/Bein_Links
+        weight: 1
+      - path: Junge/Bein_Links/Kapsel
+        weight: 1
+      - path: Junge/Bein_Links/Kapsel/Kapsel_1
+        weight: 1
+      - path: Junge/Bein_rechts
+        weight: 1
+      - path: Junge/Bein_rechts/Kapsel_2
+        weight: 1
+      - path: Junge/Bein_rechts/Kapsel_2/Kapsel_1_2
+        weight: 1
+      - path: Junge/Hose
+        weight: 1
+      - path: Junge/Kopf
+        weight: 1
+      - path: Junge/Kopf/Cappy
+        weight: 1
+      - path: Junge/Kopf/Cappy/Kugel
+        weight: 1
+      - path: Junge/Kopf/Cappy/Kugel_1
+        weight: 1
+      - path: Junge/Kopf/Kopf_2
+        weight: 1
+      - path: "Junge/K\xF6rper"
+        weight: 1
+      - path: "Junge/K\xF6rper/arm"
+        weight: 1
+      - path: "Junge/K\xF6rper/arm/Kapsel_4"
+        weight: 1
+      - path: "Junge/K\xF6rper/arm/Kapsel_4/Kapsel_1_4"
+        weight: 1
+      - path: "Junge/K\xF6rper/arm_1"
+        weight: 1
+      - path: "Junge/K\xF6rper/arm_1/Kapsel_3"
+        weight: 1
+      - path: "Junge/K\xF6rper/arm_1/Kapsel_3/Kapsel_1_3"
+        weight: 1
+      - path: "Junge/K\xF6rper/Kugel_1_2"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
