@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &107830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 457242}
+  - 108: {fileID: 10807058}
+  m_Layer: 0
+  m_Name: Spotlight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &134094
 GameObject:
   m_ObjectHideFlags: 0
@@ -27,6 +43,7 @@ GameObject:
   - 4: {fileID: 430108}
   - 65: {fileID: 6588786}
   - 54: {fileID: 5453816}
+  - 114: {fileID: 11462190}
   m_Layer: 0
   m_Name: Lampe
   m_TagString: Untagged
@@ -62,7 +79,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 430108}
-  m_RootOrder: 0
+  m_RootOrder: 2
 --- !u!4 &430108
 Transform:
   m_ObjectHideFlags: 1
@@ -73,9 +90,22 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 423892}
+  - {fileID: 457242}
   - {fileID: 499128}
+  - {fileID: 423892}
   m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &457242
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 430108}
   m_RootOrder: 0
 --- !u!4 &499128
 Transform:
@@ -178,6 +208,52 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .400000006, y: .699999988, z: .400000006}
   m_Center: {x: 0, y: .349999994, z: 0}
+--- !u!108 &10807058
+Light:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107830}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_Type: 2
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 3
+  m_Range: 10
+  m_SpotAngle: 20
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 1
+    m_Resolution: -1
+    m_Strength: 1
+    m_Bias: .0500000007
+    m_NormalBias: .400000006
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_BounceIntensity: .579999983
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_AreaSize: {x: 1, y: 1}
+--- !u!114 &11462190
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb0641483055cc4aa7b2dc7c2317fa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  switchable: 1
+  lightOnClip: {fileID: 8300000, guid: e757f06edd32eb248925053f81a25ee1, type: 3}
+  lightOffClip: {fileID: 8300000, guid: 48c0917bbf641ba439d30ec85dd96a7c, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -189,6 +265,14 @@ Prefab:
       propertyPath: m_Mass
       value: .200000003
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: lightOnClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e757f06edd32eb248925053f81a25ee1, type: 3}
+    - target: {fileID: 0}
+      propertyPath: lightOffClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 48c0917bbf641ba439d30ec85dd96a7c, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 153516}

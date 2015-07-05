@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 408470}
   - 65: {fileID: 6534468}
   - 54: {fileID: 5438982}
+  - 114: {fileID: 11499288}
   m_Layer: 0
   m_Name: Stehlampe
   m_TagString: Untagged
@@ -300,6 +301,20 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
+--- !u!114 &11499288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb0641483055cc4aa7b2dc7c2317fa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  switchable: 1
+  lightOnClip: {fileID: 8300000, guid: e757f06edd32eb248925053f81a25ee1, type: 3}
+  lightOffClip: {fileID: 8300000, guid: 48c0917bbf641ba439d30ec85dd96a7c, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -323,6 +338,18 @@ Prefab:
       propertyPath: m_Shadows.m_Type
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: lightOnClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e757f06edd32eb248925053f81a25ee1, type: 3}
+    - target: {fileID: 0}
+      propertyPath: lightOffClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 48c0917bbf641ba439d30ec85dd96a7c, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 137064}
