@@ -304,7 +304,7 @@ GameObject:
   - 114: {fileID: 11470904}
   m_Layer: 0
   m_Name: Madel
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2202,6 +2202,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: audioClips.Array.size
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

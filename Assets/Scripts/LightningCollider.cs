@@ -34,7 +34,7 @@ public class LightningCollider : MonoBehaviour
     private IEnumerator Flash()
     {
         lightning.enabled = true;
-        AudioSource.PlayClipAtPoint(flashClip, transform.position, 1f);
+        AudioSource.PlayClipAtPoint(flashClip, transform.position, 0.5f);
         yield return new WaitForSeconds(0.5f);
         lightning.enabled = false;
     }
