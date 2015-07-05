@@ -6,6 +6,7 @@ public class LightSwitch : MonoBehaviour
 {
 
     public bool switchable = true;
+    public bool isOn = true;
 
     public AudioClip lightOnClip;
     public AudioClip lightOffClip;
@@ -16,6 +17,15 @@ public class LightSwitch : MonoBehaviour
 	void Start ()
 	{
 	    light = GetComponentInChildren<Light>();
+
+	    if (isOn)
+	    {
+	        light.range = 10;
+	    }
+	    else
+	    {
+	        light.range = 1;
+	    }
 	}
 
     void OnMouseDown()
@@ -25,15 +35,17 @@ public class LightSwitch : MonoBehaviour
 
     private void SwitchLight()
     {
-        if (switchable && light.enabled == true)
+        if (switchable && isOn)
         {
             AudioSource.PlayClipAtPoint(lightOffClip, transform.position, 1f);
-            light.enabled = false;
+            light.range = 1;
+            isOn = false;
         }
-        else if(switchable && light.enabled == false)
+        else if(switchable && !isOn)
         {
             AudioSource.PlayClipAtPoint(lightOnClip, transform.position, 1f);
-            light.enabled = true;
+            light.range = 10;
+            isOn = true;
         }
     }
 }
