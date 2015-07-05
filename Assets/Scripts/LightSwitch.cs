@@ -1,12 +1,14 @@
 ﻿using System.Diagnostics;
 using UnityEngine;
+using UnityEngine.Networking;
 using System.Collections;
 
-public class LightSwitch : MonoBehaviour
+public class LightSwitch : NetworkBehaviour
 {
 
     public bool switchable = true;
-    public bool isOn = true;
+    [SyncVar]
+	public bool isOn = true;
 
     public AudioClip lightOnClip;
     public AudioClip lightOffClip;
