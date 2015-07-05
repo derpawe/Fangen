@@ -1,5 +1,4 @@
-﻿using System.Diagnostics;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Networking;
 using System.Collections;
 
@@ -34,6 +33,15 @@ public class LightSwitch : NetworkBehaviour
     void OnMouseDown()
     {
         SwitchLight();
+    }
+
+    void OnTriggerEnter(Collider collider)
+    {
+        if (collider.tag == "Player")
+        {
+            SwitchLight();
+            Debug.Log("BLAH");
+        }
     }
 
 	void Update()

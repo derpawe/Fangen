@@ -11,6 +11,7 @@ GameObject:
   - 65: {fileID: 6534468}
   - 54: {fileID: 5438982}
   - 114: {fileID: 11499288}
+  - 135: {fileID: 13570358}
   m_Layer: 0
   m_Name: Stehlampe
   m_TagString: Untagged
@@ -104,7 +105,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 137064}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.84232664, y: 1.01865554, z: -12.1193504}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 403036}
@@ -313,8 +314,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchable: 1
+  isOn: 1
   lightOnClip: {fileID: 8300000, guid: e757f06edd32eb248925053f81a25ee1, type: 3}
   lightOffClip: {fileID: 8300000, guid: 48c0917bbf641ba439d30ec85dd96a7c, type: 3}
+--- !u!135 &13570358
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137064}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: .5
+  m_Center: {x: 0, y: -.5, z: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
