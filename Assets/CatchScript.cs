@@ -29,35 +29,26 @@ public class CatchScript : MonoBehaviour {
 
 	void OnGUI(){
 		if (isHunter)
-			GUI.TextArea (new Rect (10, 10,100, 25), "Catch!" + points);
+			GUI.TextArea (new Rect (10, 10,100, 25), "Catch!  " + points);
 		else
-			GUI.TextArea (new Rect (500, 10, 100, 25), "Run!"+ points);
+			GUI.TextArea (new Rect (500, 10, 100, 25), "Run!  "+ points);
 	}
 
+	
 
-
-	void OnTriggerEnter(Collision col) {
-		print ("not if");
-		if(col.gameObject.tag == "Player"){
+	void OnTriggerEnter(Collider collider){
+		if(collider.tag  == "Player"){
 			print("Collision");
 			if(isHunter) {
+				points = points + 10000;
 				isHunter = false;
 				//_timeout = true;
-				print ("isHunter");
-				
-				Material newMaterial = new Material(Shader.Find("Diffuse"));
-				
-				//newMaterial.color = blue;
-				//gameObjectRenderer.material = newMaterial ;
 			} else if (!isHunter ) {
 				isHunter = true;
 				//_timeout = true;
 				print("isHunted");
-				
-				Material newMaterial = new Material(Shader.Find("Diffuse"));
-				
-				//newMaterial.color = red;
-				//gameObjectRenderer.material = newMaterial ;
+
+
 			} 
 			
 		}

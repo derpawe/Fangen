@@ -40,7 +40,7 @@ public class LightSwitch : NetworkBehaviour
         if (collider.tag == "Player")
         {
             SwitchLight();
-            Debug.Log("BLAH");
+            
         }
     }
 
@@ -50,7 +50,7 @@ public class LightSwitch : NetworkBehaviour
 			light.range = 10;
 		else
 			light.range = 1;
-		print("isON:"+isOn);
+//		print("isON:"+isOn);
 	}
 
     private void SwitchLight()

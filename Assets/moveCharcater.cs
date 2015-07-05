@@ -13,7 +13,12 @@ public class moveCharcater : MonoBehaviour {
 		CharacterController controller = GetComponent<CharacterController>();
 		if (controller.isGrounded) {
 			moveDirection = new Vector3(Input.GetAxis(horizontalTag), 0, Input.GetAxis(verticalTag));
-			moveDirection = transform.TransformDirection(moveDirection);
+			if (moveDirection != Vector3.zero)
+			{
+				var rotation = transform.rotation;
+				rotation.SetLookRotation(moveDirection);
+				transform.rotation = rotation;
+			}
 			moveDirection *= speed;
 			if (Input.GetButton("Jump"))
 				moveDirection.y = jumpSpeed;
