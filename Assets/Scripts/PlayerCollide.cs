@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using System.Collections;
 
-public class PlayerCollide : MonoBehaviour {
+public class PlayerCollide : NetworkBehaviour {
 	
 	float _timer;
 	bool _timeout;
@@ -43,7 +43,7 @@ public class PlayerCollide : MonoBehaviour {
 		if (isFirstplayer)
 			GUI.TextArea (new Rect (10, 10,100, 25), "Erster:" + points);
 		else
-			GUI.TextArea (new Rect (10, 25, 100, 25), "Zweiter:" + points);
+			GUI.TextArea (new Rect (10, 35, 100, 25), "Zweiter:" + points);
 	}
 
 	// Update is called once per frame
