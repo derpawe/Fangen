@@ -16,6 +16,6 @@ public class NewScene : MonoBehaviour {
 	}
 
 	void OnMouseDown(){
-		Application.LoadLevel ("final-splitscreen"); 
+		//Application.LoadLevel ("final-splitscreen"); 
 	}
 }

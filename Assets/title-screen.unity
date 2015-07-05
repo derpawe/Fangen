@@ -99,9 +99,9 @@ GameObject:
   - 92: {fileID: 1382470673}
   - 124: {fileID: 1382470672}
   - 81: {fileID: 1382470671}
-  - 114: {fileID: 1382470670}
   - 131: {fileID: 1382470676}
   - 114: {fileID: 1382470677}
+  - 82: {fileID: 1382470670}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -109,18 +109,75 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1382470670
-MonoBehaviour:
+--- !u!82 &1382470670
+AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1382470669}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e2bc3a197bd243ee82ac95473eee53b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelName: 
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: bf2e763da9a0a7e419bb622eb33f0dcb, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!81 &1382470671
 AudioListener:
   m_ObjectHideFlags: 0
@@ -217,6 +274,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d8fddb005bf54a4bb32b1f60d3178a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  texture: {fileID: 2800000, guid: 2e5e4d799809f4d4c92922ef8093f97d, type: 3}
+  texture2: {fileID: 2800000, guid: 640d5f7733c86482fb7d46202d1d09bb, type: 3}
+  nextLevel: final-splitscreen
 --- !u!1 &1905775655
 GameObject:
   m_ObjectHideFlags: 0
