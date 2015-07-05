@@ -13115,7 +13115,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 434096, guid: 8a064964a91ad2a4a8f782b7f70812d0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -3.00999999
+      value: -5.5
       objectReference: {fileID: 0}
     - target: {fileID: 434096, guid: 8a064964a91ad2a4a8f782b7f70812d0, type: 2}
       propertyPath: m_LocalPosition.y
@@ -13123,7 +13123,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 434096, guid: 8a064964a91ad2a4a8f782b7f70812d0, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -12.3000002
+      value: -11.8800001
       objectReference: {fileID: 0}
     - target: {fileID: 434096, guid: 8a064964a91ad2a4a8f782b7f70812d0, type: 2}
       propertyPath: m_LocalRotation.x
@@ -13155,15 +13155,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 434096, guid: 8a064964a91ad2a4a8f782b7f70812d0, type: 2}
       propertyPath: m_LocalScale.x
-      value: .899999976
+      value: .800000012
       objectReference: {fileID: 0}
     - target: {fileID: 434096, guid: 8a064964a91ad2a4a8f782b7f70812d0, type: 2}
       propertyPath: m_LocalScale.y
-      value: .899999976
+      value: .800000012
       objectReference: {fileID: 0}
     - target: {fileID: 434096, guid: 8a064964a91ad2a4a8f782b7f70812d0, type: 2}
       propertyPath: m_LocalScale.z
-      value: .899999976
+      value: .800000012
       objectReference: {fileID: 0}
     - target: {fileID: 156384, guid: 8a064964a91ad2a4a8f782b7f70812d0, type: 2}
       propertyPath: m_TagString
@@ -17248,8 +17248,8 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
-  m_Radius: .5
+  m_Height: 1
+  m_Radius: .200000003
   m_SlopeLimit: 45
   m_StepOffset: .300000012
   m_SkinWidth: .0799999982
@@ -17266,7 +17266,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1e82354b07f14965acb968389c995f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isHunter: 1
+  isHunter: 0
+  huntingString: '"Run!!!"'
 --- !u!1 &1008975696
 GameObject:
   m_ObjectHideFlags: 0
@@ -24517,7 +24518,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 422398, guid: 5d2c0e75d56093d4a8948eee2cc6807b, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -12.4700003
+      value: -9.19999981
       objectReference: {fileID: 0}
     - target: {fileID: 422398, guid: 5d2c0e75d56093d4a8948eee2cc6807b, type: 2}
       propertyPath: m_LocalRotation.x
@@ -24549,15 +24550,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 422398, guid: 5d2c0e75d56093d4a8948eee2cc6807b, type: 2}
       propertyPath: m_LocalScale.x
-      value: .899999976
+      value: .800000012
       objectReference: {fileID: 0}
     - target: {fileID: 422398, guid: 5d2c0e75d56093d4a8948eee2cc6807b, type: 2}
       propertyPath: m_LocalScale.y
-      value: .899999976
+      value: .800000012
       objectReference: {fileID: 0}
     - target: {fileID: 422398, guid: 5d2c0e75d56093d4a8948eee2cc6807b, type: 2}
       propertyPath: m_LocalScale.z
-      value: .899999976
+      value: .800000012
       objectReference: {fileID: 0}
     - target: {fileID: 185516, guid: 5d2c0e75d56093d4a8948eee2cc6807b, type: 2}
       propertyPath: m_TagString
@@ -24818,8 +24819,8 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
-  m_Radius: .5
+  m_Height: 1
+  m_Radius: .200000003
   m_SlopeLimit: 45
   m_StepOffset: .300000012
   m_SkinWidth: .0799999982
@@ -24847,7 +24848,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1e82354b07f14965acb968389c995f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isHunter: 0
+  isHunter: 1
+  huntingString: '"Catch!!!" '
 --- !u!4 &1442733569 stripped
 Transform:
   m_PrefabParentObject: {fileID: 408470, guid: 7211b5e2506f99547b9770b80d19e061, type: 2}
