@@ -43,7 +43,7 @@ public class PlayerCollide : MonoBehaviour {
 		if (isFirstplayer)
 			GUI.TextArea (new Rect (10, 10,100, 25), "Erster:" + points);
 		else
-			GUI.TextArea (new Rect (10, 10, 100, 25), "Zweiter:" + points);
+			GUI.TextArea (new Rect (10, 25, 100, 25), "Zweiter:" + points);
 	}
 
 	// Update is called once per frame
