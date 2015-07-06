@@ -15782,7 +15782,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!1 &937261704
 GameObject:
   m_ObjectHideFlags: 0
@@ -17267,8 +17267,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isHunter: 0
-  huntingString1: 
-  huntingString2: 
+  huntingString1: Catch!!
+  huntingString2: Run!!
 --- !u!1 &1008975696
 GameObject:
   m_ObjectHideFlags: 0
@@ -23997,7 +23997,7 @@ Transform:
   - {fileID: 1094423136}
   - {fileID: 1079086983}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
 --- !u!1 &1381615616
 GameObject:
   m_ObjectHideFlags: 0
@@ -24850,8 +24850,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isHunter: 1
-  huntingString1: 
-  huntingString2: 
+  huntingString1: 'Catch!! '
+  huntingString2: Run!!
 --- !u!4 &1442733569 stripped
 Transform:
   m_PrefabParentObject: {fileID: 408470, guid: 7211b5e2506f99547b9770b80d19e061, type: 2}
